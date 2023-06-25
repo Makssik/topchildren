@@ -1,0 +1,60 @@
+.reviews{
+    //Высота секции ровно полная высота экрана с вычетом хедера и футера
+    height: calc(100vh - 60px - 356px);
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    & .reviews__header{
+        margin-top: 0;
+    }
+}
+
+.reviews__list{
+    height: 100%;
+    overflow:scroll;
+    padding: 15px;
+
+    border-radius: 8px;
+
+    outline: 1px solid $accent;
+    background: url('../../asset/images/telegram-background.jpg');
+    background-size: cover;
+    @media screen and (min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+}
+
+.reviews__item{
+    width: 65%;
+    padding: 8px;
+    background: rgba(244, 207, 44, 0.3);
+    backdrop-filter: blur(3px);
+    border-radius: 16px 16px 16px 0px;
+    &:not(:last-child){margin-bottom: 10px;}
+}
+
+.revCont{
+    height: calc(100% - 63px);
+}
+
+.PerfectScrollbar {
+  background-color: #f1f1f1;
+  width: 200px;
+}
+
+.PerfectScrollbar .ps__thumb-y {
+  background-color: #555;
+  border-radius: 10px;
+  height: 50px;
+  width: 10px;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
+.chat__item{
+    transition-delay: 1s;
+}

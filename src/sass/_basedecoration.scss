@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  // @media screen and (max-width: 480px) {
+  //   width: 480px;
+  // }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+main{
+  background-color: $background-color;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  background-color: #fff;
+}
+
+section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  padding-bottom: 60px;
+  background-color: $every-first-bg-color;
+  &:nth-child(2n) {
+    background-color: $background-color;
+  }
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $title-color;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  color: $heading-of-parargraph-color;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: $main-text-color;
+}
+
+.container {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1140px) {
+    width: 1140px;
+  }
+}
+
+#root{
+  background-color: $background-color;
+}

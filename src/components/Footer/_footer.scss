@@ -1,0 +1,58 @@
+footer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: $background-color;
+  color: #ffffff;
+
+  .title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+    color: #ffffff;
+  }
+}
+
+.address {
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  margin-bottom: 40px;
+  &__item {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    span {
+      color: #ffffff;
+    }
+  }
+}
+
+footer .logo {
+  @include logo;
+  color: #ffffff;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social__item--footer{
+  &:first-child{
+    margin-right: 20px;
+  }
+}
