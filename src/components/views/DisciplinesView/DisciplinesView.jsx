@@ -1,7 +1,9 @@
+import Disciplines from '../../Disciplines/Disciplines';
+
 const DisciplinesView = () => {
     return (
         <>
-            DisciplinesView
+            <Disciplines />
         </>
     );
 }

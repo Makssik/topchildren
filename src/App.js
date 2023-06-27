@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<HomeView />} />
-          <Route path='curses' element={<CursesView />} />
-          <Route path='achivments' element={<AchivmentsView />} />
-          <Route path='disciplines' element={<DisciplinesView />} />
-          <Route path='reviews' element={<ReviewView />} />
-          <Route path='about' element={<AboutView />} />
+          <Route path="curses" element={<CursesView />} />
+          <Route path="achivments" element={<AchivmentsView />} />
+          <Route path="disciplines" element={<DisciplinesView />} />
+          <Route path="reviews" element={<ReviewView />} />
+          <Route path="about" element={<AboutView />} />
         </Route>
       </Routes>
     </>

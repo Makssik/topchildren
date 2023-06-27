@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb26b190.css",
-    "main.js": "/static/js/main.2293349c.js",
+    "main.css": "/static/css/main.7fb0a8ef.css",
+    "main.js": "/static/js/main.9d1faa0e.js",
     "static/media/telegram-background.jpg": "/static/media/telegram-background.67fd42fde2c7aacee3c2.jpg",
     "static/media/blurred-gold.jpg": "/static/media/blurred-gold.6063b1ed0235ffc4bb7c.jpg",
     "static/media/hero.jpg": "/static/media/hero.8869523cef20b0e432fc.jpg",
+    "static/media/dance.jpg": "/static/media/dance.94398b9311b3f33e598a.jpg",
+    "static/media/defile.jpg": "/static/media/defile.8cbf0d0478a6f88e0a33.jpg",
+    "static/media/makeup.jpg": "/static/media/makeup.3f38aabf5b04bd5d43a3.jpg",
+    "static/media/model.jpg": "/static/media/model.d5eed68bdb4582d08f93.jpg",
+    "static/media/etiket.jpg": "/static/media/etiket.ba02dfa55320093bdba7.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.8e9d8ebf85de97afe471.png",
+    "static/media/photopos.jpg": "/static/media/photopos.4a6c1dc9a271513870df.jpg",
+    "static/media/teatr.jpg": "/static/media/teatr.215c7855d37551f8fe86.jpg",
     "index.html": "/index.html",
-    "main.cb26b190.css.map": "/static/css/main.cb26b190.css.map",
-    "main.2293349c.js.map": "/static/js/main.2293349c.js.map"
+    "main.7fb0a8ef.css.map": "/static/css/main.7fb0a8ef.css.map",
+    "main.9d1faa0e.js.map": "/static/js/main.9d1faa0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb26b190.css",
-    "static/js/main.2293349c.js"
+    "static/css/main.7fb0a8ef.css",
+    "static/js/main.9d1faa0e.js"
   ]
 }
