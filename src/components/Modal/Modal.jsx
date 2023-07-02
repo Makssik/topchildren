@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { motion } from 'framer-motion';
 
-const Modal = ({ isOpen, onClose }) => {
-  if (!isOpen) {
-    return null;
-    }
-    
-  return ReactDOM.createPortal(
-    <div className="modal__backdrop">
+const Modal = ({ onClose }) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="modal__backdrop"
+      onClick={onClose}
+    >
       <div className="modal__content">
         <span className="modal__button--close" onClick={onClose}>
           &times;
@@ -23,8 +25,7 @@ const Modal = ({ isOpen, onClose }) => {
           Загрузка…
         </iframe>
       </div>
-    </div>,
-    document.getElementById('root'),
+    </motion.div>
   );
 };
 

@@ -23,7 +23,7 @@
 
     flex-direction: row-reverse;
     align-items: center;
-    width: 586px;
+    width: calc(100%/2 + 128px);
     &:nth-child(2n) {
       .disciplines__description {
         text-align: left;
@@ -32,11 +32,12 @@
       margin-left: auto;
       flex-direction: row;
     }
-  }
+  } 
 }
 
 .disciplines__img {
   border-radius: 50%;
+  width: 240px;
 }
 
 .disciplines__description {
