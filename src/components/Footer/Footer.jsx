@@ -13,7 +13,7 @@ const Footer = () => {
                         </div>
                         <ul className="address__list">
                             <li className="address__item">
-                            <span>м. Бориспіль, вул. Шевченка 73</span>
+                            <span>м. Бориспіль, вул. Глибоцька 122</span>
                             </li>
                             <li className="address__item">
                                 <a href='https://www.instagram.com/veronika_shepetko/'>
