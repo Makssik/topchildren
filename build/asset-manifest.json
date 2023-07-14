@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5543de9e.css",
-    "main.js": "/static/js/main.f30484da.js",
+    "main.css": "/static/css/main.dad8b3f4.css",
+    "main.js": "/static/js/main.d51ecc72.js",
     "static/media/telegram-background.jpg": "/static/media/telegram-background.67fd42fde2c7aacee3c2.jpg",
     "static/media/blurred-gold.jpg": "/static/media/blurred-gold.6063b1ed0235ffc4bb7c.jpg",
-    "static/media/hero.jpg": "/static/media/hero.8869523cef20b0e432fc.jpg",
+    "static/media/hero.jpg": "/static/media/hero.c9c5d87374fb950321ca.jpg",
     "static/media/dance.jpg": "/static/media/dance.94398b9311b3f33e598a.jpg",
     "static/media/defile.jpg": "/static/media/defile.8cbf0d0478a6f88e0a33.jpg",
     "static/media/makeup.jpg": "/static/media/makeup.3f38aabf5b04bd5d43a3.jpg",
@@ -14,11 +14,11 @@
     "static/media/photopos.jpg": "/static/media/photopos.4a6c1dc9a271513870df.jpg",
     "static/media/teatr.jpg": "/static/media/teatr.215c7855d37551f8fe86.jpg",
     "index.html": "/index.html",
-    "main.5543de9e.css.map": "/static/css/main.5543de9e.css.map",
-    "main.f30484da.js.map": "/static/js/main.f30484da.js.map"
+    "main.dad8b3f4.css.map": "/static/css/main.dad8b3f4.css.map",
+    "main.d51ecc72.js.map": "/static/js/main.d51ecc72.js.map"
   },
   "entrypoints": [
-    "static/css/main.5543de9e.css",
-    "static/js/main.f30484da.js"
+    "static/css/main.dad8b3f4.css",
+    "static/js/main.d51ecc72.js"
   ]
 }
