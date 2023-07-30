@@ -1,0 +1,32 @@
+.qna__list{
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+  width: 700px;
+}
+}
+
+.qna__ques-placeholder {
+  background: #0055ff;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px ;
+  padding: 1px 20px;
+}
+
+.qna__ques-header{
+  margin-top: 6px;
+}
+
+.qna__answer-placeholder{
+  outline: 1px solid $accent;
+  border-radius: 2px 2px 10px 10px;
+  padding: 0 20px;
+}
+
+.qna__answer{
+  margin: 0;
+}
+
+

@@ -35,6 +35,7 @@ const GoogleMaps = () => {
         </p>
         <div className="wrapper">
                   <iframe
+                      title='googleMap'
                       className='map__google'
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17127.325458522475!2d30.959915307912386!3d50.34805156890745!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4e8cb1349d4ad%3A0x921940b70f99359e!2sBoryspil%20School%20%E2%84%963!5e0!3m2!1sru!2sua!4v1689335232155!5m2!1sru!2sua"
             width="600"

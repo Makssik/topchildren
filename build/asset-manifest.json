@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dad8b3f4.css",
-    "main.js": "/static/js/main.d51ecc72.js",
+    "main.css": "/static/css/main.edbe1d65.css",
+    "main.js": "/static/js/main.cae4407e.js",
     "static/media/telegram-background.jpg": "/static/media/telegram-background.67fd42fde2c7aacee3c2.jpg",
     "static/media/blurred-gold.jpg": "/static/media/blurred-gold.6063b1ed0235ffc4bb7c.jpg",
     "static/media/hero.jpg": "/static/media/hero.c9c5d87374fb950321ca.jpg",
@@ -14,11 +14,11 @@
     "static/media/photopos.jpg": "/static/media/photopos.4a6c1dc9a271513870df.jpg",
     "static/media/teatr.jpg": "/static/media/teatr.215c7855d37551f8fe86.jpg",
     "index.html": "/index.html",
-    "main.dad8b3f4.css.map": "/static/css/main.dad8b3f4.css.map",
-    "main.d51ecc72.js.map": "/static/js/main.d51ecc72.js.map"
+    "main.edbe1d65.css.map": "/static/css/main.edbe1d65.css.map",
+    "main.cae4407e.js.map": "/static/js/main.cae4407e.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad8b3f4.css",
-    "static/js/main.d51ecc72.js"
+    "static/css/main.edbe1d65.css",
+    "static/js/main.cae4407e.js"
   ]
 }

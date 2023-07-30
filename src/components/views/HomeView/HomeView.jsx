@@ -2,12 +2,14 @@ import GoogleMaps from '../../GoogleMap';
 import GoogleForm from '../../GoogleForm/GoogleForm';
 import LureTextSection from '../../LureTextSection';
 import Hero from '../../Hero/Hero';
+import QuesAndAns from '../../QuesAndAns'
 const HomeView = () => {
   return (
     <>
       <Hero />
-      <GoogleMaps />
       <LureTextSection />
+      <QuesAndAns />
+      <GoogleMaps />
       <GoogleForm />
     </>
   );
